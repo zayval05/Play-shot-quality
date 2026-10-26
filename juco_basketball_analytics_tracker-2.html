@@ -68,7 +68,33 @@
       background: #64748b;
     }
   </style>
-</head>
+</head <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <!-- Mobile & iPad Fullscreen Meta Tags -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="JUCO Analytics">
+
+  <title>JUCO Basketball Analytics & Shot Tracking Engine</title>
+
+  <!-- Prevent Touch Highlight & Accidental Zooming on iPad -->
+  <style>
+    * {
+      -webkit-tap-highlight-color: transparent;
+      user-select: none;
+    }
+    input, textarea, select {
+      user-select: text;
+    }
+  </style>
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  ...>
 <body class="min-h-screen flex flex-col bg-slate-950 text-slate-100">
 
   <!-- TOP NAVIGATION BAR -->
